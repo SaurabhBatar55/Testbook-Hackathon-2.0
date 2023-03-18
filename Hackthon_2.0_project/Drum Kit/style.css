@@ -1,0 +1,68 @@
+html {
+    font-size: 10px;
+   
+    background-size: cover;
+  }
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url('music.webp');
+  }
+  
+  .keys {
+    display: flex;
+    flex-direction: row;
+    min-height: 70vh;
+   align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    border: .4rem solid rgba(0, 0, 0, 0.24);
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(58, 53, 53, 0.4);
+    
+  }
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 4rem;
+  }
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+  }
+
+  .drum {
+    text-align: center;
+   
+  }
+  .drum h1{
+    font-size: 90px;
+    color: rgb(183, 200, 215);
+    margin-top: 100px;
+    text-shadow: 2px 3px 5px rebeccapurple;
+  }
+  .drum  h3{
+    font-size: 20px;
+    color: rgb(183, 200, 215);
+    text-shadow: 2px 3px 5px rebeccapurple;
+  }
